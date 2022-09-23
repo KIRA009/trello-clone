@@ -1,0 +1,16 @@
+.board {
+    max-width: calc(100% - 2rem);
+    overflow-x: auto;
+
+    &__container {
+        display: grid;
+        align-items: flex-start;
+        max-width: calc(100% - 2rem);
+        gap: 10px;
+        padding: 3rem 2rem;
+    }
+
+    &__add-column-btn {
+        width: fit-content;
+    }
+}

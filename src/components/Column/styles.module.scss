@@ -1,0 +1,27 @@
+.column {
+    width: 400px;
+    display: flex;
+    max-height: 34rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 0.5rem;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex: 1 1 0%;
+        align-items: center;
+    }
+
+    &__list {
+        width: 100%;
+    }
+}
